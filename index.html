@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонтні послуги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        .service h3 {
+            color: #4CAF50;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+	    <h1>Є-МАЙСТЕР</h1>
+        <h1>Ремонтні послуги</h1>
+        <p>Якісний ремонт під ключ – ваш комфортний простір починається з нас!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">Про нас</a>
+        <a href="#services">Наші послуги</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Про нас</h2>
+		<p>Точність. Відповідальність. Професіоналізм</p2>
+        <p>З моменту заснування ми працюємо відповідно до вимог щодо конкретних проектів замовників, щоразу отримуючи високу оцінку досягнутих результатів.  У своїй галузі ми використовуємо комплексний підхід та надаємо широкий спектр послуг.
+
+Ремонт квартир, будинків та офісів є нашим основним заняттям. У нашому арсеналі багато фахівців які допоможуть упорядкувати ваш робочий або домашній простір. Ми використовуємо новітні розробки та сучасні будматеріали. Точно дотримуємося технології та якості оздоблювальних робіт. Високо кваліфіковані працівники допоможуть вам вирішити усі ваші проблеми з ремонтом як у квартирі, так і у приватному секторі. Виконуємо всі ремонтні роботи від заміни стельових покриттів (натяжні та підвісні стелі) до поклейки шпалер, фарбування або заміна підлогових покриттів.
+
+Ми гарантує виконання поставлених завдань точно, ефективно та вчасно. Зв'яжіться з нами, і ми втілимо вашу ідею в життя.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Наші послуги</h2>
+		<p>Кожен клієнт для  «Є - Майстер» на першому місці, і ми докладаємо всіх зусиль, щоб ви залишились задоволеними. Ми повністю готові навіть до найскладніших проектів та гарантуємо бездоганну якість роботи. Зателефонуйте нам і дізнайтеся, як ми можемо допомогти вам.</p>
+        <div class="services">
+            <div class="service">
+                <h3>Дизайн інтер'єру</h3>
+                <p>Створюємо унікальні та стильні рішення для вашого простору.</p>
+            </div>
+            <div class="service">
+                <h3>Капітальний ремонт</h3>
+                <p>Повний спектр послуг від демонтажу до оздоблювальних робіт.</p>
+            </div>
+            <div class="service">
+                <h3>Косметичний ремонт</h3>
+                <p>Швидке оновлення інтер’єру без значних витрат.</p>
+            </div>
+            <div class="service">
+                <h3>Електромонтажні роботи</h3>
+                <p>Встановлення, ремонт та заміна електричних мереж.</p>
+            </div>
+            <div class="service">
+                <h3>Сантехнічні роботи</h3>
+                <p>Професійний монтаж та ремонт систем водопостачання та опалення.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery">
+           <img src="https://i.postimg.cc/FsJL6GLT/remont-kvartir.jpg" alt="Проєкт 1">
+            <img src="https://i.postimg.cc/2jLyjyS6/pexels-heyho-6588596.jpg" alt="Проєкт 2">
+            <img src="https://i.postimg.cc/Vv5mh7Z4/dsc05680.jpg" alt="Проєкт 3">
+			<img src="https://i.postimg.cc/DyKfcKqy/image.jpg" alt="Проєкт 4">
+			<img src="https://i.postimg.cc/RVRmQJSX/dizajnerskij-remont-kvartir-2018-v-kieve-2.jpg" alt="Проєкт 5">
+			<img src="https://i.postimg.cc/T2JFZ8zP/fb659400e82f2e6a8adf3807d0ca58b1.jpg" alt="Проєкт 6">
+			<img src="https://i.postimg.cc/bv13kk8v/n-Bk-SUh-L2h-FYjm86-IL6-B.jpg" alt="Проєкт 7">
+			<img src="https://i.postimg.cc/HxB09tNT/20200129-5.jpg" alt="Проєкт 8">
+        </div>
+    </section>
+
+<!-- Contact Section -->
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Телефон: +380 123 456 789</p>
+        <p>Email: info@remontservice.com.ua</p>
+        <p>Адреса: м. Дніпро, вул. Ремонтна, 10</p>
+        <h3>Напишіть нам:</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше ім'я" required>
+            <input type="email" placeholder="Ваш email" required>
+            <textarea placeholder="Ваше питання" rows="5" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ремонтні послуги. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
+
+
